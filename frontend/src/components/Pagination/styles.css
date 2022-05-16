@@ -10,6 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .dsmovie-pagination-box form {
@@ -27,10 +28,12 @@
     align-items: center;
     border: 1px solid var(--color-primary);
     cursor: pointer;
+
 }
 
 .dsmovie-pagination-button svg {
-    filter: brightness(0) saturate(100%) invert(26%) sepia(19%) saturate(7395%) hue-rotate(234deg) brightness(89%) contrast(92%);
+    /*filter: brightness(0) saturate(100%) invert(26%) sepia(19%) saturate(7395%) hue-rotate(234deg) brightness(89%) contrast(92%);*/
+    filter: brightness(0) saturate(100%) invert(23%) sepia(71%) saturate(7218%) hue-rotate(356deg) brightness(87%) contrast(127%);
 }
 
 .dsmovie-pagination-button:disabled {
